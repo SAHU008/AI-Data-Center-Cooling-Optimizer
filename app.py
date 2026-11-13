@@ -91,7 +91,7 @@ st.divider()
 # Historical dataset summary
 st.subheader("Historical Server Temperature")
 
-with open("data/server_data.csv", "r") as file:
+with open("server_data.csv", "r") as file:
     reader = csv.DictReader(file)
     records = list(reader)
 
